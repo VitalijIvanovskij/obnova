@@ -1,0 +1,307 @@
+body{
+	font-family: "Verdana", "Arial", sans-serif;
+	background-color: lightgray;
+}
+
+#wrap{
+	position:relative;
+	min-width: 1000px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+header{
+	padding:10px;
+	position:relative;
+	height: 100px;
+	background-color: gray;
+	text-align:center;
+}
+
+#logo{
+	float:left;
+}
+
+#view_auth{
+	display:inline-block;
+	text-align:center;
+	width:20px;
+	height:20px;
+	background:lightgray;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.auth{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	vertical-align: top;
+	text-align:right;
+}
+
+.auth a{
+	color: black;
+	text-decoration:none;
+}
+
+.auth a:hover{
+	font-weight:bold;
+}
+
+.auth table{
+	display:none;
+	font-size:14px;
+}
+
+.auth table input{
+	padding-left: 5px;
+}
+
+#add_button{
+	display:inline-block;
+	margin-left:5px;
+	margin-top:20px;
+	vertical-align:top;
+}
+
+#add_button button{
+	width:200px;
+	padding:10px;
+}
+
+#add_form{
+	display:none;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	width:530px;
+}
+
+#add_form textarea{
+	resize:none;
+}
+
+#search input,
+#add input{
+	line-height:25px;
+}
+
+#search form{
+	display:inline-block;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+#search input[type=text]{
+	padding-left:5px;
+	width: 300px;
+	font-size:16px;
+}
+
+.menu{
+	display:inline-block;
+}
+
+.menu ul{
+	display:inline-block;
+	padding:0;
+}
+
+.menu li{
+	position:relative;
+	display: block;
+    height: 40px;
+    background: url("../images/fon3.png");
+	border: 2px solid #f0f0f0;
+	margin-bottom: 5px;
+}
+
+.menu a{
+	display: block;
+    line-height: 40px;
+    font-size: 18px;
+	font-weight: bold;
+    color:#000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li:hover{
+	background: #fff;
+	border:2px solid white;
+	bottom: 2px;
+}
+
+#top_menu li:hover{
+	bottom:4px;
+} 
+
+#top_menu{	
+	margin-right: 100px;
+	margin-left: 30px;
+}
+
+#top_menu li{
+	display: inline-block;
+	width: 100px;
+}
+
+#left_menu{
+	display:inline-block;
+	vertical-align:top;
+}
+
+#left_menu li{
+	width: 200px;
+	border-left: 5px solid white;
+}
+
+.content{
+	display:inline-block;
+	width: 530px;
+	position:relative;
+	padding-left: 20px;
+}
+
+.adds{
+	margin-bottom:25px;
+	padding:5px;
+	background:white;
+	border:1px solid gray;
+}
+
+.adds_info{
+	text-align:right;
+	font-size: 14px;
+	font-style: italic;
+	color:gray;
+	margin-top:5px;
+}
+
+.comments{
+	margin-left:10px;
+	margin-top:10px;
+	padding:5px;
+	min-height:30px;
+	background:#f0f0f0;
+	border:1px solid lightgray;
+	border-left:3px solid gray;
+	color: gray;
+	font-size:13px;
+}
+
+.add_comment{
+	margin-top:10px;
+	text-align:right;
+}
+
+.add_comment a{
+	text-decoration:none;
+	color:#555555;
+}
+
+.add_comment form{
+	display:none;
+	margin-top:10px;
+	text-align:left;
+}
+
+.add_comment textarea{
+	resize:none;
+}
+
+.add_comment tr>td:first-child{
+	width: 120px;
+}
+
+.right_bar{
+	display:inline-block;
+	vertical-align:top;
+	margin-left: 10px;
+}
+
+
+.block{
+	width: 200px;
+	height: 200px;
+	border: 2px solid gray;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.toTop{
+	display:none;
+	position:fixed;
+	bottom:100px;
+	text-decoration:none;
+	text-align:center;
+	line-height:25px;
+	color:black;
+	width:100px;
+	height:30px;
+	background:rgba(128, 128, 128, 0.3);
+	border:2px solid gray;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.left{
+	left:80px;
+}
+
+.right{
+	right:80px;
+}
+
+.pagination{
+	text-align:center;
+}
+
+.pagination li{
+	display: inline-block;
+	background:#f9f9f9;
+	border:1px solid gray;
+	padding: 5px;
+}
+
+.pagination a{
+	text-decoration: none;
+	color: #555555;
+}
+
+footer{
+	background-color: gray;
+	text-align:center;
+	
+}
+
+#copyright{
+	background-color: lightgray;
+	padding-top:30px;
+	padding-bottom:30px;
+	color: black;
+}
+
+.footer_info{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:inline-block;
+	width:250px;
+	vertical-align:top;
+	text-align:left;
+}
+.footer_info a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	font-size:14px;
+}
+
+.footer_info a:hover{
+	text-decoration:underline;
+}

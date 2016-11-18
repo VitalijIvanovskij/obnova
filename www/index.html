@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Объявления Новопскова</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div id="logo">obnova.lg.ua</div>
+			<h1>Объявления Новопскова</h1>
+			<div class="auth"><a href="#"><div id="view_auth">&#709;</div></a>
+				<table name="enter">
+					<tr>
+						<td><input type="text" name="login" placeholder="login"></td>
+					</tr>
+					<tr>
+						<td><input type="password" name="password" placeholder="password"></td>
+					</tr>
+					<tr>
+						<td>
+						<a href="#">Регистрация</a>
+						<input type="submit" value="Войти" name="enter">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</header>
+		<div id="search">
+			<form action="#" name="search" method="post"><input type="text" placeholder="Что ищем?"><input type="submit" name="search" value="Искать"></form>
+		</div>
+		<div id="add_form">
+			<form action="#" method="post" name="add_form">
+				<table>
+					<tr>
+						<td><select name="section" id="">
+								<option value="1">Недвижимость</option>
+								<option value="2">Транспорт</option>
+								<option value="3">Бытовая техника</option>
+								<option value="4">Одежда</option>
+								<option value="5">Всё для дома</option>
+								<option value="6">Хобби</option>
+								<option value="7">Услуги</option>
+								<option value="8">Работа</option>
+								<option value="9">Разное</option>
+							</select></td>
+							<td>
+							<input type="radio" name="category" value="1" checked>Продам
+							<input type="radio" name="category" value="2">Куплю
+							<input type="radio" name="category" value="3">Обмен
+							<input type="radio" name="category" value="4">Другое
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><textarea name="text" id="" cols="60" rows="6" placeholder="Введите текст объявления"></textarea></td>
+					</tr>
+					<tr>
+						<td><input type="submit" name="new_add" value="Разместить"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div id="add_button">
+			<button>Разместить обяъвление</button>
+		</div>
+		<div class="menu" id="top_menu">
+			<ul>
+				<li><a href="#">Все</a></li>
+				<li><a href="#">Продам</a></li>
+				<li><a href="#">Куплю</a></li>
+				<li><a href="#">Обмен</a></li>
+				<li><a href="#">Другое</a></li>
+			</ul>
+		</div>
+		<div class="menu" id="left_menu">
+			<ul>
+				<li><a href="#">Все</a></li>
+				<li><a href="#">Недвижимость</a></li>
+				<li><a href="#">Транспорт</a></li>
+				<li><a href="#">Бытовая техника</a></li>
+				<li><a href="#">Одежда</a></li>
+				<li><a href="#">Всё для дома</a></li>
+				<li><a href="#">Хобби</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Работа</a></li>
+				<li><a href="#">Разное</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="adds">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, dolorem, ducimus eveniet labore ea tempore recusandae assumenda amet et repellat excepturi laudantium fugiat earum. Totam, odio esse sequi voluptatum repellat.</p>
+				<div class="adds_info"><span class="date">01:01:01 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name1:</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, obcaecati.</p>
+				</div>
+				<div class="comments">
+					<div class="comment_author">Name1:</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse magnam voluptatem dignissimos!</p>
+				</div>
+				<div class="add_comment">
+					<a href="#">Ответить</a><span> &#187;</span>
+					<form action="#" name="add_comment" method="post">
+						<table>
+							<tr>
+								<td><textarea name="comment" id="" cols="60" rows="4" placeholder="Введите свой комментарий"></textarea></td>
+							</tr>
+							<tr>
+								<td><input type="submit" name="comment" value="Отправить"></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Placeat, possimus, quisquam, excepturi, at magnam aliquid vel voluptas sequi voluptates qui asperiores ipsa accusantium necessitatibus debitis maiores natus similique. At, provident iste veritatis libero magni eum et eveniet explicabo.</p>
+				<div class="adds_info"><span class="date">02:02:02 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name2:</div>
+					<p>Dolorem itaque modi voluptatum temporibus nobis velit ea cumque culpa.</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Cupiditate, in, incidunt modi asperiores dignissimos quam harum perferendis ipsa architecto ex magni alias veniam et tenetur quae pariatur reiciendis voluptates autem maiores optio aut fugit iste neque nisi delectus.</p>
+				<div class="adds_info"><span class="date">03:03:03 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name3:</div>
+					<p>Eligendi sint architecto distinctio consequatur nam ducimus eius aut maxime.</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Atque, labore voluptatibus cupiditate consectetur eius voluptates voluptate corporis commodi eum maiores quasi error dolorum dolorem voluptatum iste quisquam ducimus iusto amet tempore autem. Repellat, non quo animi illum quas.</p>
+				<div class="adds_info"><span class="date">04:04:04 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name4:</div>
+					<p>Molestias, molestiae, nobis cupiditate minus illo odit laborum labore itaque.</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Repudiandae, quibusdam, sed, natus impedit maiores quo cumque obcaecati possimus maxime omnis dolorem fuga numquam eos soluta voluptates autem molestiae. Illo odio iste eveniet dicta molestias deleniti id sed accusantium.</p>
+				<div class="adds_info"><span class="date">05:05:05 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name5:</div>
+					<p>Nobis, cumque, et voluptate laborum explicabo laboriosam neque ratione perferendis!</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Beatae, officia, cupiditate, perspiciatis, ipsum odit amet error nulla sed blanditiis harum voluptates sit consequuntur quas aliquam fuga praesentium autem eaque ipsam earum porro. Omnis, rem nemo harum obcaecati alias.</p>
+				<div class="adds_info"><span class="date">06:06:06 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name6:</div>
+					<p>Veniam, ratione possimus amet repudiandae doloremque magni et saepe blanditiis.</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Dolorum, quibusdam, delectus, ut in voluptas exercitationem quisquam neque expedita earum voluptatem hic minus porro facilis quam praesentium voluptatibus quis explicabo maiores dolor ducimus iusto omnis recusandae sequi ipsum rerum?</p>
+				<div class="adds_info"><span class="date">07:07:07 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name7:</div>
+					<p>Dicta, omnis odio doloribus unde eveniet quod illum assumenda a!</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Amet, quam, ad, dignissimos debitis in corrupti porro laboriosam voluptatibus dicta dolor autem libero nemo deleniti saepe itaque sapiente quasi architecto rerum natus nam tempore eligendi doloribus quidem reprehenderit accusamus.</p>
+				<div class="adds_info"><span class="date">08:08:08 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name8:</div>
+					<p>Similique, animi recusandae blanditiis sit pariatur cumque laudantium voluptatibus sequi.</p>
+				</div>
+			</div>
+			<div class="adds">
+				<p>Tempora, numquam, nesciunt, laboriosam, nulla sapiente delectus ad aliquam alias laudantium minus dolores cum eaque consectetur omnis fugiat voluptate voluptatibus laborum nihil voluptates voluptatum est asperiores animi ea veniam nisi.</p>
+				<div class="adds_info"><span class="date">09:09:09 </span><span class="add_author">Михаил Поплавский</span></div>
+				<div class="comments">
+					<div class="comment_author">Name9:</div>
+					<p>Ut, ex, saepe iste a omnis error possimus autem soluta.</p>
+				</div>
+			</div>			
+		</div>
+		<div class="right_bar">
+			<div class="block">Lorem ipsum dolor sit amet.</div>
+			<div class="block">Lorem ipsum dolor sit amet.</div>
+			<div class="block">Lorem ipsum dolor sit amet.</div>
+		</div>
+		<a href="#"><div class="toTop left">Наверх</div></a>
+		<a href="#"><div class="toTop right">Наверх</div></a>
+		<div class="pagination">
+			<ul>
+				<li><a href="#">Первая</a></li>
+				<li><a href="#">Вперёд</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">10</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">Назад</a></li>
+				<li><a href="">Последняя</a></li>
+			</ul>
+		</div>
+		<footer>
+			<div class="footer_info">
+				<a href="#">Lorem ipsum dolor.</a>
+				<a href="#">Mollitia, voluptatem debitis.</a>
+				<a href="#">Magni, nemo, doloremque.</a>
+			</div>
+			<div class="footer_info">
+				<a href="#">Lorem ipsum dolor.</a>
+				<a href="#">Sunt, quia est.</a>
+				<a href="#">Neque, id, culpa!</a>
+			</div>
+			<div class="footer_info">
+				<a href="#">Lorem ipsum dolor.</a>
+				<a href="#">Laudantium, eveniet praesentium.</a>
+				<a href="#">Asperiores, laborum, tempore.</a>
+			</div>
+			<div id="copyright">&copy; 2016 Created by Vitalij Ivanovskij</div>
+		</footer>
+	</div>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/sstu_script.js"></script>
+</body>
+</html>
