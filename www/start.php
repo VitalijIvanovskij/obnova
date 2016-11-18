@@ -10,5 +10,5 @@
 	define("KB_B", 1024);
 		
 	AbstractObjectDB::setDB(DataBase::getDBO());
-
+    //Тест отправки изменений в репозиторий
 ?>
